@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="WU2-l4-BFN">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Normal-->
+        <scene sceneID="n78-fv-o4t">
+            <objects>
+                <viewController id="DrT-aY-ae0" customClass="NormalTableViewController" customModule="UITextViewLinkClick" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="G4g-JH-5f3"/>
+                        <viewControllerLayoutGuide type="bottom" id="nbG-WD-Blz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="njf-mi-Q64">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Gsg-dx-dBq">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="DrT-aY-ae0" id="BwO-tf-Z1X"/>
+                                    <outlet property="delegate" destination="DrT-aY-ae0" id="jHM-DA-mDT"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Gsg-dx-dBq" firstAttribute="top" secondItem="G4g-JH-5f3" secondAttribute="bottom" id="33W-JZ-CtJ"/>
+                            <constraint firstItem="Gsg-dx-dBq" firstAttribute="leading" secondItem="njf-mi-Q64" secondAttribute="leading" id="7ha-6p-NeU"/>
+                            <constraint firstItem="nbG-WD-Blz" firstAttribute="top" secondItem="Gsg-dx-dBq" secondAttribute="bottom" id="C2H-ee-61w"/>
+                            <constraint firstAttribute="trailing" secondItem="Gsg-dx-dBq" secondAttribute="trailing" id="GsN-r3-UPw"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Normal" id="CAQ-Ga-Jku"/>
+                    <connections>
+                        <outlet property="tableView" destination="Gsg-dx-dBq" id="L5J-Is-Gpq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BqE-nO-HWE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="408" y="380"/>
+        </scene>
+        <!--TapGesture-->
+        <scene sceneID="CYa-ZM-Uia">
+            <objects>
+                <viewController id="UeK-sW-MDz" customClass="TapGestureTableViewController" customModule="UITextViewLinkClick" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tj4-Pa-JSj"/>
+                        <viewControllerLayoutGuide type="bottom" id="CrI-hs-ZUX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jOU-lN-ant">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Nwp-6M-A4Z">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="UeK-sW-MDz" id="9WF-xZ-ehI"/>
+                                    <outlet property="delegate" destination="UeK-sW-MDz" id="7z0-Sh-lw2"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Nwp-6M-A4Z" secondAttribute="trailing" id="AMo-Oc-n0G"/>
+                            <constraint firstItem="Nwp-6M-A4Z" firstAttribute="leading" secondItem="jOU-lN-ant" secondAttribute="leading" id="EiB-9j-DnW"/>
+                            <constraint firstItem="CrI-hs-ZUX" firstAttribute="top" secondItem="Nwp-6M-A4Z" secondAttribute="bottom" id="dUr-mF-KKu"/>
+                            <constraint firstItem="Nwp-6M-A4Z" firstAttribute="top" secondItem="Tj4-Pa-JSj" secondAttribute="bottom" id="i8h-Jk-luC"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="TapGesture" id="DxG-cv-htQ"/>
+                    <connections>
+                        <outlet property="tableView" destination="Nwp-6M-A4Z" id="Irt-t9-2Ql"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BXo-9p-Mvv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="408" y="-285"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="fL3-qt-Ad9">
+            <objects>
+                <tabBarController id="WU2-l4-BFN" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="38D-oV-Bzd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="UeK-sW-MDz" kind="relationship" relationship="viewControllers" id="40a-OS-KTp"/>
+                        <segue destination="DrT-aY-ae0" kind="relationship" relationship="viewControllers" id="i0G-cz-ixh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vOf-dt-KrN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-544" y="48"/>
+        </scene>
+    </scenes>
+</document>

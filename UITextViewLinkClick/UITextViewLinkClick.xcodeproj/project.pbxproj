@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C3F5A251FD50A880035EB00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F5A241FD50A880035EB00 /* AppDelegate.swift */; };
+		4C3F5A271FD50A880035EB00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F5A261FD50A880035EB00 /* ViewController.swift */; };
+		4C3F5A2A1FD50A880035EB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3F5A281FD50A880035EB00 /* Main.storyboard */; };
+		4C3F5A2C1FD50A880035EB00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3F5A2B1FD50A880035EB00 /* Assets.xcassets */; };
+		4C3F5A2F1FD50A880035EB00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3F5A2D1FD50A880035EB00 /* LaunchScreen.storyboard */; };
+		4C3F5A3A1FD50A880035EB00 /* UITextViewLinkClickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F5A391FD50A880035EB00 /* UITextViewLinkClickTests.swift */; };
+		4C3F5A451FD50A880035EB00 /* UITextViewLinkClickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F5A441FD50A880035EB00 /* UITextViewLinkClickUITests.swift */; };
+		4C3F5A541FD50B060035EB00 /* TapGestureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F5A521FD50B060035EB00 /* TapGestureTableViewController.swift */; };
+		4C3F5A581FD50B1D0035EB00 /* NormalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F5A561FD50B1D0035EB00 /* NormalTableViewController.swift */; };
+		4C3F5A5D1FD51B390035EB00 /* TapGestureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F5A5B1FD51B390035EB00 /* TapGestureTableViewCell.swift */; };
+		4C3F5A5E1FD51B390035EB00 /* TapGestureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3F5A5C1FD51B390035EB00 /* TapGestureTableViewCell.xib */; };
+		4C3F5A611FD51B4C0035EB00 /* NormalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F5A5F1FD51B4C0035EB00 /* NormalTableViewCell.swift */; };
+		4C3F5A621FD51B4C0035EB00 /* NormalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3F5A601FD51B4C0035EB00 /* NormalTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C3F5A361FD50A880035EB00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C3F5A191FD50A880035EB00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3F5A201FD50A880035EB00;
+			remoteInfo = UITextViewLinkClick;
+		};
+		4C3F5A411FD50A880035EB00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C3F5A191FD50A880035EB00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3F5A201FD50A880035EB00;
+			remoteInfo = UITextViewLinkClick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C3F5A211FD50A880035EB00 /* UITextViewLinkClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextViewLinkClick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3F5A241FD50A880035EB00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C3F5A261FD50A880035EB00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C3F5A291FD50A880035EB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C3F5A2B1FD50A880035EB00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C3F5A2E1FD50A880035EB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C3F5A301FD50A880035EB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3F5A351FD50A880035EB00 /* UITextViewLinkClickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextViewLinkClickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3F5A391FD50A880035EB00 /* UITextViewLinkClickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewLinkClickTests.swift; sourceTree = "<group>"; };
+		4C3F5A3B1FD50A880035EB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3F5A401FD50A880035EB00 /* UITextViewLinkClickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextViewLinkClickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3F5A441FD50A880035EB00 /* UITextViewLinkClickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewLinkClickUITests.swift; sourceTree = "<group>"; };
+		4C3F5A461FD50A880035EB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3F5A521FD50B060035EB00 /* TapGestureTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureTableViewController.swift; sourceTree = "<group>"; };
+		4C3F5A561FD50B1D0035EB00 /* NormalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalTableViewController.swift; sourceTree = "<group>"; };
+		4C3F5A5B1FD51B390035EB00 /* TapGestureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureTableViewCell.swift; sourceTree = "<group>"; };
+		4C3F5A5C1FD51B390035EB00 /* TapGestureTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TapGestureTableViewCell.xib; sourceTree = "<group>"; };
+		4C3F5A5F1FD51B4C0035EB00 /* NormalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalTableViewCell.swift; sourceTree = "<group>"; };
+		4C3F5A601FD51B4C0035EB00 /* NormalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C3F5A1E1FD50A880035EB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3F5A321FD50A880035EB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3F5A3D1FD50A880035EB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C3F5A181FD50A880035EB00 = {
+			isa = PBXGroup;
+			children = (
+				4C3F5A231FD50A880035EB00 /* UITextViewLinkClick */,
+				4C3F5A381FD50A880035EB00 /* UITextViewLinkClickTests */,
+				4C3F5A431FD50A880035EB00 /* UITextViewLinkClickUITests */,
+				4C3F5A221FD50A880035EB00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C3F5A221FD50A880035EB00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C3F5A211FD50A880035EB00 /* UITextViewLinkClick.app */,
+				4C3F5A351FD50A880035EB00 /* UITextViewLinkClickTests.xctest */,
+				4C3F5A401FD50A880035EB00 /* UITextViewLinkClickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C3F5A231FD50A880035EB00 /* UITextViewLinkClick */ = {
+			isa = PBXGroup;
+			children = (
+				4C3F5A5A1FD51B150035EB00 /* cells */,
+				4C3F5A241FD50A880035EB00 /* AppDelegate.swift */,
+				4C3F5A261FD50A880035EB00 /* ViewController.swift */,
+				4C3F5A281FD50A880035EB00 /* Main.storyboard */,
+				4C3F5A2B1FD50A880035EB00 /* Assets.xcassets */,
+				4C3F5A2D1FD50A880035EB00 /* LaunchScreen.storyboard */,
+				4C3F5A301FD50A880035EB00 /* Info.plist */,
+				4C3F5A521FD50B060035EB00 /* TapGestureTableViewController.swift */,
+				4C3F5A561FD50B1D0035EB00 /* NormalTableViewController.swift */,
+			);
+			path = UITextViewLinkClick;
+			sourceTree = "<group>";
+		};
+		4C3F5A381FD50A880035EB00 /* UITextViewLinkClickTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C3F5A391FD50A880035EB00 /* UITextViewLinkClickTests.swift */,
+				4C3F5A3B1FD50A880035EB00 /* Info.plist */,
+			);
+			path = UITextViewLinkClickTests;
+			sourceTree = "<group>";
+		};
+		4C3F5A431FD50A880035EB00 /* UITextViewLinkClickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C3F5A441FD50A880035EB00 /* UITextViewLinkClickUITests.swift */,
+				4C3F5A461FD50A880035EB00 /* Info.plist */,
+			);
+			path = UITextViewLinkClickUITests;
+			sourceTree = "<group>";
+		};
+		4C3F5A5A1FD51B150035EB00 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				4C3F5A5B1FD51B390035EB00 /* TapGestureTableViewCell.swift */,
+				4C3F5A5C1FD51B390035EB00 /* TapGestureTableViewCell.xib */,
+				4C3F5A5F1FD51B4C0035EB00 /* NormalTableViewCell.swift */,
+				4C3F5A601FD51B4C0035EB00 /* NormalTableViewCell.xib */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C3F5A201FD50A880035EB00 /* UITextViewLinkClick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3F5A491FD50A880035EB00 /* Build configuration list for PBXNativeTarget "UITextViewLinkClick" */;
+			buildPhases = (
+				4C3F5A1D1FD50A880035EB00 /* Sources */,
+				4C3F5A1E1FD50A880035EB00 /* Frameworks */,
+				4C3F5A1F1FD50A880035EB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITextViewLinkClick;
+			productName = UITextViewLinkClick;
+			productReference = 4C3F5A211FD50A880035EB00 /* UITextViewLinkClick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C3F5A341FD50A880035EB00 /* UITextViewLinkClickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3F5A4C1FD50A880035EB00 /* Build configuration list for PBXNativeTarget "UITextViewLinkClickTests" */;
+			buildPhases = (
+				4C3F5A311FD50A880035EB00 /* Sources */,
+				4C3F5A321FD50A880035EB00 /* Frameworks */,
+				4C3F5A331FD50A880035EB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3F5A371FD50A880035EB00 /* PBXTargetDependency */,
+			);
+			name = UITextViewLinkClickTests;
+			productName = UITextViewLinkClickTests;
+			productReference = 4C3F5A351FD50A880035EB00 /* UITextViewLinkClickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C3F5A3F1FD50A880035EB00 /* UITextViewLinkClickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3F5A4F1FD50A880035EB00 /* Build configuration list for PBXNativeTarget "UITextViewLinkClickUITests" */;
+			buildPhases = (
+				4C3F5A3C1FD50A880035EB00 /* Sources */,
+				4C3F5A3D1FD50A880035EB00 /* Frameworks */,
+				4C3F5A3E1FD50A880035EB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3F5A421FD50A880035EB00 /* PBXTargetDependency */,
+			);
+			name = UITextViewLinkClickUITests;
+			productName = UITextViewLinkClickUITests;
+			productReference = 4C3F5A401FD50A880035EB00 /* UITextViewLinkClickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C3F5A191FD50A880035EB00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = acumen;
+				TargetAttributes = {
+					4C3F5A201FD50A880035EB00 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					4C3F5A341FD50A880035EB00 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C3F5A201FD50A880035EB00;
+					};
+					4C3F5A3F1FD50A880035EB00 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C3F5A201FD50A880035EB00;
+					};
+				};
+			};
+			buildConfigurationList = 4C3F5A1C1FD50A880035EB00 /* Build configuration list for PBXProject "UITextViewLinkClick" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C3F5A181FD50A880035EB00;
+			productRefGroup = 4C3F5A221FD50A880035EB00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C3F5A201FD50A880035EB00 /* UITextViewLinkClick */,
+				4C3F5A341FD50A880035EB00 /* UITextViewLinkClickTests */,
+				4C3F5A3F1FD50A880035EB00 /* UITextViewLinkClickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C3F5A1F1FD50A880035EB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3F5A2F1FD50A880035EB00 /* LaunchScreen.storyboard in Resources */,
+				4C3F5A5E1FD51B390035EB00 /* TapGestureTableViewCell.xib in Resources */,
+				4C3F5A2C1FD50A880035EB00 /* Assets.xcassets in Resources */,
+				4C3F5A2A1FD50A880035EB00 /* Main.storyboard in Resources */,
+				4C3F5A621FD51B4C0035EB00 /* NormalTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3F5A331FD50A880035EB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3F5A3E1FD50A880035EB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C3F5A1D1FD50A880035EB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3F5A541FD50B060035EB00 /* TapGestureTableViewController.swift in Sources */,
+				4C3F5A271FD50A880035EB00 /* ViewController.swift in Sources */,
+				4C3F5A5D1FD51B390035EB00 /* TapGestureTableViewCell.swift in Sources */,
+				4C3F5A581FD50B1D0035EB00 /* NormalTableViewController.swift in Sources */,
+				4C3F5A251FD50A880035EB00 /* AppDelegate.swift in Sources */,
+				4C3F5A611FD51B4C0035EB00 /* NormalTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3F5A311FD50A880035EB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3F5A3A1FD50A880035EB00 /* UITextViewLinkClickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3F5A3C1FD50A880035EB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3F5A451FD50A880035EB00 /* UITextViewLinkClickUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C3F5A371FD50A880035EB00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3F5A201FD50A880035EB00 /* UITextViewLinkClick */;
+			targetProxy = 4C3F5A361FD50A880035EB00 /* PBXContainerItemProxy */;
+		};
+		4C3F5A421FD50A880035EB00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3F5A201FD50A880035EB00 /* UITextViewLinkClick */;
+			targetProxy = 4C3F5A411FD50A880035EB00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C3F5A281FD50A880035EB00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3F5A291FD50A880035EB00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C3F5A2D1FD50A880035EB00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3F5A2E1FD50A880035EB00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C3F5A471FD50A880035EB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C3F5A481FD50A880035EB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C3F5A4A1FD50A880035EB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UITextViewLinkClick/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acumen.UITextViewLinkClick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C3F5A4B1FD50A880035EB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UITextViewLinkClick/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acumen.UITextViewLinkClick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C3F5A4D1FD50A880035EB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UITextViewLinkClickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acumen.UITextViewLinkClickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITextViewLinkClick.app/UITextViewLinkClick";
+			};
+			name = Debug;
+		};
+		4C3F5A4E1FD50A880035EB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UITextViewLinkClickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acumen.UITextViewLinkClickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITextViewLinkClick.app/UITextViewLinkClick";
+			};
+			name = Release;
+		};
+		4C3F5A501FD50A880035EB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UITextViewLinkClickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acumen.UITextViewLinkClickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UITextViewLinkClick;
+			};
+			name = Debug;
+		};
+		4C3F5A511FD50A880035EB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UITextViewLinkClickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acumen.UITextViewLinkClickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UITextViewLinkClick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C3F5A1C1FD50A880035EB00 /* Build configuration list for PBXProject "UITextViewLinkClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3F5A471FD50A880035EB00 /* Debug */,
+				4C3F5A481FD50A880035EB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3F5A491FD50A880035EB00 /* Build configuration list for PBXNativeTarget "UITextViewLinkClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3F5A4A1FD50A880035EB00 /* Debug */,
+				4C3F5A4B1FD50A880035EB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3F5A4C1FD50A880035EB00 /* Build configuration list for PBXNativeTarget "UITextViewLinkClickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3F5A4D1FD50A880035EB00 /* Debug */,
+				4C3F5A4E1FD50A880035EB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3F5A4F1FD50A880035EB00 /* Build configuration list for PBXNativeTarget "UITextViewLinkClickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3F5A501FD50A880035EB00 /* Debug */,
+				4C3F5A511FD50A880035EB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C3F5A191FD50A880035EB00 /* Project object */;
+}
